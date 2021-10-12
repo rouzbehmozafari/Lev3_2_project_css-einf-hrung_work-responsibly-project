@@ -21,8 +21,11 @@ body {
     background-color: var(--main-bg-color);
 }
 
-header, section{
+header{
     height: 100vh;
+}
+header, section{
+
     padding: 5vh 10vw;
 }
 
