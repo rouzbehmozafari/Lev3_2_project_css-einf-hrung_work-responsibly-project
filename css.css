@@ -52,19 +52,20 @@ nav li a{
     color: var(--txtgrn);
 }
 
-header ul img {
-    width: 20px;
-
-}
-
 header ul li {
     text-align: right;
+    padding: 4px;
+}
+
+header ul img {
+    width: 25px;
+
 }
 
 header article {
-    width: 400px;
+    width: 500px;
     margin-top: 15vh;
-    margin-bottom: 15vh;
+    margin-bottom: 12vh;
 }
 
 header a {
@@ -81,6 +82,9 @@ header h2 {
 
 
 
+section {
+    border: var(--txtlightg) solid;
+}
 
 
 /* Inhalt:
