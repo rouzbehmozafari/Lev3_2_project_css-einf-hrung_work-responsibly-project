@@ -71,7 +71,7 @@ header article {
     margin-bottom: 12vh;
 }
 
-header a {
+header a ,footer a {
     color:var(--txtdarkg)
 }
 h1 {
@@ -89,7 +89,7 @@ section h3 {
 }
 
 
-section {
+section , footer {
     border-top: var(--border-color) solid 1px;
 }
 
@@ -99,47 +99,46 @@ section:first-child div {
 }
 
 section:first-child img {
-    padding: 15px;
-    width: 350px;
+    margin: 15px;
+    width: 300px;
 }
-section p {
+section:first-child img:hover {
+    box-shadow: 1px 1px 2px var(--border-color), -1px -1px 2px var(--border-color) ;
+    
+
+}
+section p:last-child {
     margin-bottom: 40px;
 }
 
-section:nth-child(3){
-    height: 200vh;
+section:last-child h3 {
+    display: block;
+    margin-bottom: 60px;
 }
 
-/* Inhalt:
+section article {
+    text-align: center;
+    padding: 3px;
+    width: 600px;
+    margin-bottom: 40px;
+}
 
-link resource 1
-image resource 1
-THE NEW YORK TIMES — #FOCUS — 10 MIN
-Cal Newport: How to Actually, Truly Focus on What You’re Doing
-By Tim Herrera
+section article:nth-child(odd) {
+    margin-right: 40%;
+}
+section li:nth-child(even) article{
+    margin-left: 40%;
+}
 
+section article img {
+    width: 600px;
+}
 
-Inhalt:
-	
-link resource 2
-image resource 2
-YOUTUBE — #SLEEP — 1H 55MIN
-JRE #1109 - Matthew Walker
-BY JOE ROGAN
+footer {
+    text-align: center;
+    padding: 70px;
+}
 
-link resource 3
-image resource 3
-THE GUARDIAN — #SLEEP — 10 MIN
-Sleep: How Much Do We Really Need?
-BY HANNAH DEVLIN
-
-link resource 4
-image resource 4
-YOUTUBE — #FOCUS — 9 MIN
-I Quit Social Media For 30 days
-BY MATT D'AVELLA
-
-
-
-
- */
+footer a {
+    text-decoration: none;
+}
