@@ -21,7 +21,7 @@ body {
     background-color: var(--main-bg-color);
 }
 
-header{
+header, section{
     height: 100vh;
     padding: 5vh 10vw;
 }
@@ -80,20 +80,34 @@ header h2 {
     font-weight: 400;
 }
 
-
-
-section {
-    border: var(--txtlightg) solid;
+section h3 {
+    font-weight: 400;
+    font-size: 20px;
 }
 
 
+section {
+    border-top: var(--border-color) solid 1px;
+}
+
+section:first-child div {
+    text-align: center;
+
+}
+
+section:first-child img {
+    padding: 15px;
+    width: 350px;
+}
+section p {
+    margin-bottom: 40px;
+}
+
+section:nth-child(3){
+    height: 200vh;
+}
+
 /* Inhalt:
-	navigation: Work Responsibly/About/Suggest a link
-Work Responsibly / 
-Browse topics and resources
-What's your struggle
-Stress, Sleep, Focus, Anxiety, Confidence, Motivation ....
-Features ressources
 
 link resource 1
 image resource 1
